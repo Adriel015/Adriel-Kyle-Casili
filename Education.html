@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Casili Personal Information</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url("images/Jett.png") no-repeat center center fixed;
+      background-size: cover;
+      color: #000;
+    }
+
+    .wrapper {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    fieldset {
+      border: 2px solid black;
+      border-radius: 20px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: rgba(32, 178, 170, 0.85); /* lightseagreen semi-transparent */
+    }
+
+    .header, .footer {
+      text-align: center;
+      color: white;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 15px;
+      white-space: nowrap;
+      overflow-x: auto;
+    }
+
+    nav a {
+      display: inline-block;
+      color: black;
+      background-color: white;
+      border-radius: 20px;
+      padding: 10px 15px;
+      margin: 5px;
+      text-decoration: none;
+      border: 1px solid black;
+      font-weight:;
+      white-space: nowrap;
+      transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: black;
+      color: white;
+      transform: scale(1.05);
+    }
+
+    .hero-image {
+      padding: 15px;
+      border-radius: 50px;
+    }
+
+    legend {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .education-section {
+      margin-top: 15px;
+    }
+
+    .school-card {
+      background-color: white;
+      border-radius: 15px;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .school-card img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+      border-radius: 10px;
+    }
+
+    .school-card h3 {
+      text-align: center;
+      margin-top: 0;
+    }
+
+    .school-card p {
+      margin: 5px 0;
+      text-align: center;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #aaa;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Header -->
+    <fieldset>
+      <div class="header">
+        <h2>Personal Information</h2>
+        <p>Educational Background</p>
+      </div>
+    </fieldset>
+
+    <!-- Navigation -->
+    <nav>
+      <div class="hero-image">
+        <a href="index.html">Home</a>
+        <a href="personal.html">Personal Information</a>
+        <a href="education.html">Education Background</a>
+        <a href="skills.html">Skills and Training</a>
+        <a href="awards.html">Recognition and Awards</a>
+        <a href="photo.html">Photo Gallery</a>
+      </div>
+    </nav>
+
+    <!-- Education Content -->
+    <fieldset>
+      <legend>Educational Background</legend>
+      <div class="education-section">
+
+        <div class="school-card">
+          <h3>Primary Education</h3>
+          <img src="Elem.jpg" alt="Elementary School">
+          <p><strong>School:</strong> Naga Central Elementary School</p>
+          <p><strong>Location:</strong> Concepcion Pequeña, Naga City</p>
+        </div>
+
+        <div class="school-card">
+          <h3>Secondary Education</h3>
+          <img src="Grade 7 Joy.jpg" alt="High School">
+          <p><strong>School:</strong> Millennium Christian High School of Cavite</p>
+          <p><strong>Location:</strong> Tirona Highway, Habay Bacoor City, Cavite</p>
+        </div>
+
+        <div class="school-card">
+          <h3>Tertiary Education</h3>
+          <img src="college.jpg.jpg" alt="College">
+          <p><strong>School:</strong> University Of Perpetual Help System DALTA - Molino Campus</p>
+          <p><strong>Location:</strong> Molino Road, Molino 3, Bacoor Cavite</p>
+        </div>
+
+      </div>
+    </fieldset>
+
+    <!-- Footer -->
+    <fieldset>
+      <div class="footer">
+        <h3>Human Computer 2</h3>
+      </div>
+    </fieldset>
+  </div>
+</body>
+</html>

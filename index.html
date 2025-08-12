@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .wrapper {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 10px;
+    }
+
+    fieldset {
+      border-radius: 20px;
+      border: 1px solid black;
+      background-color: lightseagreen;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .header, .footer {
+      text-align: center;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      background-color: white;
+      color: black;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      border: 1px solid black;
+      transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: black;
+      color: white;
+      transform: scale(1.1);
+    }
+
+    .content-box {
+      background-color: white;
+      border-radius: 15px;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      height: 500px;
+      width: 95%;
+      margin: auto;
+    }
+
+    .content-box img {
+      width: 250px;
+      height: auto;
+      border-radius: 20px;
+      border: 2px solid black;
+    }
+
+    .intro-text {
+      flex: 1;
+    }
+
+    .intro-text h1 {
+      font-size: 50px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: black;
+      margin-bottom: 15px;
+    }
+
+    .intro-text p {
+      font-size: 22px;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Header -->
+    <fieldset>
+      <div class="header">
+        <h2>Personal Portfolio</h2>
+        <p>Home Page</p>
+      </div>
+    </fieldset>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="personal.html">Personal Information</a>
+      <a href="education.html">Education Background</a>
+      <a href="skills.html">Skills and Training</a>
+      <a href="awards.html">Recognition and Awards</a>
+      <a href="photo.html">Photo Gallery</a>
+    </nav>
+
+    <!-- Main Content -->
+    <fieldset style="width: 100%;">
+      <div class="content-box">
+        <img src="C:\Users\KYLE\Downloads\Portfolio FINALS\Elem.jpg" alt="Profile Photo">
+        <div class="intro-text">
+          <p>I am</p>
+          <h1>Kyle C. Casili</h1>
+          <p>This is my personal portfolio.</p>
+        </div>
+      </div>
+    </fieldset>
+
+    <!-- Footer -->
+    <fieldset>
+      <div class="footer">
+        <h3>Human Computer 2</h3>
+      </div>
+    </fieldset>
+  </div>
+</body>
+</html>

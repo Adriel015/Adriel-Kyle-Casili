@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adriel Kyle Casili - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+<nav class="nav" aria-label="Primary">
+  <a class="logo" href="#">My Portfolio</a>
+  <button id="navToggle" class="nav-toggle" aria-label="Open menu" aria-controls="navMenu" aria-expanded="false">
+    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+  </button>
+  <ul id="navMenu" class="nav-menu">
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#resume">Resume & Links</a></li>
+  </ul>
+</nav>
+
+
+
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <img class="profile-pic" src="images\Meeeeeeeeeee.jpg" alt="Profile picture of Adriel Kyle Casili" />
+        <div>
+          <h1>Hi, I’m Adriel Kyle Casili</h1>
+          <p class="lead">BSCS Student & Aspiring Developer</p>
+          <a class="btn primary" href="#projects">View My Projects</a>
+        </div>
+      </div>
+    </section>
+
+  <!-- Projects Section -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="grid projects">
+
+      <!-- Operating System Lab -->
+      <article class="card project">
+        <div class="project-body">
+          <h3 class="project-title">Operating System Lab</h3>
+          <p class="project-desc">
+            Hands-on exercises involving process management, file systems, and shell scripting to understand OS concepts.
+          </p>
+          <ul class="stack">
+            <li>Linux</li><li>Shell Scripting</li><li>Process Management</li>
+          </ul>
+          <div class="project-links">
+            <a class="btn" href="https://github.com/Adriel015/Adriel-Kyle-Casili" target="_blank">GitHub Repo</a>
+            <a class="btn outline" href="c:\Users\KYLE\OneDrive\Documents\CASILI OS LAB\CASILI.FinalsOSProject.txt" target="_blank">Demo File</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- HTML Project -->
+      <article class="card project">
+        <div class="project-body">
+          <h3 class="project-title">HTML Portfolio</h3>
+          <p class="c:\Users\KYLE\OneDrive\Documents\HCI LAB ACTIVITY\Portfolio.html">
+            Created a personal portfolio website using HTML and CSS to showcase projects, skills, and contact information.
+          </p>
+          <ul class="stack">
+            <li>HTML</li><li>CSS</li><li>Responsive Design</li>
+          </ul>
+          <div class="project-links">
+            <a class="btn" href="https://github.com/Adriel015/Adriel-Kyle-Casili" target="_blank">GitHub Repo</a>
+            <a class="btn outline" href="c:\Users\KYLE\OneDrive\Documents\HCI LAB ACTIVITY\Portfolio.html" target="_blank">Demo File</a>
+          </div>
+        </div>
+      </article>
+      
+
+      <!-- Power BI Project -->
+      <article class="card project">
+        <div class="project-body">
+          <h3 class="project-title">Power BI Dashboard</h3>
+          <p class="project-desc">
+            Developed an interactive dashboard in Power BI for data visualization and analysis, enabling actionable insights.
+          </p>
+          <ul class="stack">
+            <li>Power BI</li><li>Data Visualization</li><li>Data Analysis</li>
+          </ul>
+          <div class="project-links">
+            <a class="btn" href="https://github.com/Adriel015/Adriel-Kyle-Casili" target="_blank">GitHub Repo</a>
+            <a class="btn outline" href="c:\Users\KYLE\OneDrive\Documents\datamining.pbix" target="_blank">Demo File</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- GitHub Contributions -->
+      <article class="card project">
+        <div class="project-body">
+          <h3 class="project-title">GitHub Projects</h3>
+          <p class="project-desc">
+            Collection of various projects and contributions hosted on GitHub, showcasing version control and collaboration skills.
+          </p>
+          <ul class="stack">
+            <li>Git</li><li>GitHub</li><li>Collaboration</li>
+          </ul>
+          <div class="project-links">
+            <a class="btn" href="https://github.com/Adriel015/Adriel-Kyle-Casili" target="_blank">GitHub Profile</a>
+            <a class="btn outline" href="files/GitHubProjectsDemo.pdf" target="_blank">Demo File</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section">
+  <div class="container" style="outline: rgb(0, 0, 0) dotted 3px; outline-offset: 1px;">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML &amp; CSS</li>
+      <li>GitHub &amp; Version Control</li>
+      <li>RapidMiner (Data Analysis &amp; Machine Learning)</li>
+      <li>Python Programming</li>
+      <li>Cisco Packet Tracer (Networking)</li>
+    </ul>
+  </div>
+</section>
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+      <div class="container">
+        <h2>Resume & Links</h2>
+        <div class="links">
+          <a class="btn primary" href="c:\Users\KYLE\Downloads\My Resume.pdf" download>Download Resume</a>
+          <a class="btn" href="https://github.com/Adriel015/Adriel-Kyle-Casili" target="_blank">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/kyle-casili-59074a37a/" target="_blank">LinkedIn</a>
+          <a class="btn outline" href="mailto:casiliadrielkyle@gmail.com">Email Me</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Adriel Kyle Casili. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+    navToggle.addEventListener('click', () => {
+      const isOpen = navMenu.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', isOpen);
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
